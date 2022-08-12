@@ -22,7 +22,7 @@ metadata:
     app: kafka-app
 spec:
   serviceName: kafka-svc
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: kafka-app
